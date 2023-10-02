@@ -23,7 +23,7 @@ var lastPositionX, lastPositionY;
         PositionMouseX = e.clientX - canvas.offsetLeft;
         PositionMouseY = e.clientY - canvas.offsetTop;
 
-        if (mouseEvent == "mouseDown") {
+        if (mouseEvent == "mousedown") {
         ctx.beginPath();
         ctx.strokeStyle = color;
         ctx.lineWidth = widthLine;
